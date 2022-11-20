@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#main{
+    background-image: url('../img/sigmund-By-tZImt0Ms-unsplash.jpg');
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+
+
+#header-img{
+    background-image: url('../img/52311202466_d5942182af_o.jpg');
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);  
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+#header-img h1{
+    text-shadow: 4px 6px black;
+    text-align: center;
+
+}
+
+#header-img p {
+    size: 20px;
+    color: black;
+    text-shadow: 2px 4px 1px black;
+
+}
+
+
+
+/* main*/
+
+#main-card{
+    padding-top: 0%;;
+   
+  
+}
+
+#main-card img{
+    height: auto;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
