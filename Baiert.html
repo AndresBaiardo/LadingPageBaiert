@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/Baiert.css">
     <link rel="icon" href="img/LOGO2-removebg-preview.ico">
+    <script type="module" src="./index.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <script src="./sw.js"></script>
+    <script src="main.js"></script>
+    <script src="jquery.js"></script>
 </head>
 <body>
 
@@ -103,37 +108,50 @@
     
         <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-4">
-  
-            <div class="bd-placeholder-img rounded-circle" width="140" height="140">
-                <img width="140" height="140" src="./img/E10.png" alt="">
-  
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div>
+        
+                  <div class="bd-placeholder-img rounded-circle" width="140" height="140">
+                      <img width="140" height="140" src="./img/E10.png" alt="">
+        
+                  </div>
+                  
+                  <h2 class="fw-normal">Clasificacion</h2>
+                  <p>Clasificada para mayores a 10 años </p>
+                </div><!-- /.col-lg-4 -->
+              </div>
+
+
+              <div class="col">
+                <div>
+                    <div class="bd-placeholder-img rounded-circle" width="140" height="140">
+                        <img width="140" height="140" src="./img/libro.png" alt="">
+                    </div>
+                    
+                    <h2 class="fw-normal">Historia</h2>   
+                    <p>Una empresa llamada "Baiert" está haciendo experimentos muy raros, esta empresa tiene sede en alaska en medio de la nada...</p>
+                    <p><a class="btn btn-secondary" href="#ancla1">Ver mas »</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div>
+
+
+              <div class="col">
+                <div>
+                  <div class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    <img width="140" height="140" src="./img/personajes.png" alt="">
+                  </div>
+        
+                  <h2 class="fw-normal" >Personajes</h2>
+                  <p>Aaju, tornir, M</p>
+                  <p><a class="btn btn-secondary" href="#personaje">Ver mas »</a></p>
+                </div>
+              </div>
             </div>
-            
-            <h2 class="fw-normal">Clasificacion</h2>
-            <p>Clasificada para mayores a 10 años </p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-  
-      
-              <div class="bd-placeholder-img rounded-circle" width="140" height="140">
-                  <img width="140" height="140" src="./img/libro.png" alt="">
-      
-              </div>
-              
-              <h2 class="fw-normal">Historia</h2>   
-              <p>Una empresa llamada "Baiert" está haciendo experimentos muy raros, esta empresa tiene sede en alaska en medio de la nada...</p>
-              <p><a class="btn btn-secondary" href="#ancla1">View details »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-              <div class="bd-placeholder-img rounded-circle" width="140" height="140">
-                  <img width="140" height="140" src="./img/personajes.png" alt="">
-      
-              </div>
-    
-            <h2 class="fw-normal" >Personajes</h2>
-            <p>Aaju, tornir, M</p>
-            <p><a class="btn btn-secondary" href="#personaje">View details »</a></p>
+          </div>
+
   
         </div><!-- /.row -->
   
@@ -148,6 +166,7 @@
           <div class="row g-0">
             <div class="col-md-4">
               <img
+              style="padding: 20px 0px"
                 src="img/hardware500.png"
                 alt="Trendy Pants and Shoes"
                 class="img-fluid rounded-start"
@@ -178,12 +197,13 @@
               <div class="card-body">
                 <h5 class="card-title">¿Estas listo? </h5>
                 <p class="card-text">
-                  Unos de los juegos mas terrorificos del "Escape Room", inspirado en las ecenas de hospitales olvidados y el clasico habitacion vacio.
+                  Unos de los juegos más terroríficos del "Escape Room", inspirado en las escenas de hospitales olvidados y el clásico habitación vacío. Te tendrás que explorar cada rincón para poder escapar, luchando por su vida, ¿podrá lograr salir?
                 </p>
               </div>
             </div>
             <div class="col-md-4">
               <img
+                style="width: 500px;; height: 300px; padding: 20px 0px;"
                 src="img/laboratorio500.png"
                 alt="Trendy Pants and Shoes"
                 class="img-fluid rounded-start"
@@ -199,7 +219,8 @@
           <div class="card mb-3" id="ancla1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4">
-                <img
+                <img 
+                style="padding-top: 20px ;"
                   src="img/Hospital500.png"
                   alt="Trendy Pants and Shoes"
                   class="img-fluid rounded-start"
@@ -247,7 +268,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="img/Aaju.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+            <img width="100%" height="250" src="img/Aaju.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
             <div class="card-body">
               <h5 class="card-title">Aaju</h5>
               <p class="card-text">
@@ -258,7 +279,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/cyber.webp" class="card-img-top" alt="Palm Springs Road"/>
+            <img width="100%" height="250" src="img/cyber.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h5 class="card-title">Cybermonst</h5>
               <p class="card-text">El primer monstruo y la primera creación de Baiert, de lo cual vieron y pudieron avanzar en las mutaciones de los humanos, bautizado como Cybermonst.</p>

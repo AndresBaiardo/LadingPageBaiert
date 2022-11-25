@@ -59,3 +59,12 @@
     align-content: center;
     justify-content: center;
 }
+
+
+
+
+/* MApa */
+#map {
+	height: 500px;
+	width: 100%;
+}

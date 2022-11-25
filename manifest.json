@@ -1,0 +1,36 @@
+{
+    "name": "JAPE",
+    "short_name": "JAPE",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation":"portrait",
+    "background_color": "#fff",
+    "theme_color":"#fff",
+    "description": "Desarrolladora de videojuego",
+    "scope":"./",
+    "icons":[
+        {
+            
+            "src":"img/BAIERT 512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        },
+        {
+            "src":"img/BAIERT 256.png",
+            "sizes":"256x256",
+            "type":"image/png"
+        },
+        {
+            "src":"img/BAIERT 128.png",
+            "sizes":"128x128",
+            "type":"image/png"
+        },
+        {
+            "src":"img/BAIERT 144.png",
+            "sizes":"144x144",
+            "type":"image/png"
+        }
+
+
+    ]
+}
