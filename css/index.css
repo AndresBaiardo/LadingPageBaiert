@@ -60,7 +60,11 @@
     justify-content: center;
 }
 
-
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* MApa */
@@ -68,3 +72,12 @@
 	height: 500px;
 	width: 100%;
 }
+
+
+@font-face {
+
+    font-family: Amatic SC;
+    
+    src: url(../Amatic_SC/AmaticSC-Regular.ttf);
+    
+    }
