@@ -81,3 +81,19 @@
     src: url(../Amatic_SC/AmaticSC-Regular.ttf);
     
     }
+
+
+
+    #zonadatos{
+        
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid black;
+        margin-top: 10px;
+    }
+
+    #zonadatos div{
+        padding: 15px;
+        border-bottom: 3px solid #00f;
+    }
