@@ -37,6 +37,8 @@
 
    export const saveTask = (title, description) => {
     addDoc(collection(db,'tasks'),{title: title, description: description});
+
+    window.alert('Enviado')
   }
 
   export const getTask = () => getDocs(collection(db,'tasks'))

@@ -38,6 +38,9 @@ window.addEventListener('DOMContentLoaded', async () => {
                 deleteTask(dataset.id)
             })
         })
+
+        
+
     });
 
     });
@@ -53,6 +56,7 @@ taskform.addEventListener('submit',(e) => {
     saveTask(title.value, description.value)
 
     taskform.reset()
+    
 
    
 
